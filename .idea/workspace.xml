@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="" />
+    <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/ResourceModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/ResourceModelInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TaskModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/TaskResourceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/tasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/tasksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +55,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
@@ -27,6 +67,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fR0KPRZGgIR1r2zWn13iSEN3yQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,17 +98,38 @@
       <workItem from="1596437014456" duration="13343000" />
       <workItem from="1596522884372" duration="12422000" />
       <workItem from="1596591195543" duration="2631000" />
+      <workItem from="1596679153110" duration="15501000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="790" y="227" key="NewPhpClassDialog" timestamp="1596597364202">
+    <state x="377" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596618178376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="227" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596597364202" />
+    <state x="377" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596618178376" />
+    <state x="790" y="227" key="NewPhpClassDialog" timestamp="1596618497215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="227" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596618497215" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1596616293957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596616293957" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1596423041158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

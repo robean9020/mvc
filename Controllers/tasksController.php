@@ -2,16 +2,15 @@
 
 namespace myvendor\Controllers;
 use myvendor\Core\Controller;
-use myvendor\Models\Task;
+use myvendor\Models\TaskRepository;
 
 class tasksController extends Controller
 {
     function index()
     {
-        $tasks = new Task();
-
-        $d['tasks'] = $tasks->showAllTasks();
-        $this->set($d);
+        $tasks = new TaskRepository();
+        $data['tasks'] = $tasks->getAll();
+        $this->set($data);
         $this->render("index");
     }
 
@@ -19,9 +18,9 @@ class tasksController extends Controller
     {
         if (isset($_POST["title"]))
         {
-            $task= new Task();
+            $task= new TaskRepository();
 
-            if ($task->create($_POST["title"], $_POST["description"]))
+            if ($task->add($_POST["title"], $_POST["description"]))
             {
                 header("Location: " . WEBROOT . "tasks/index");
             }
@@ -32,9 +31,9 @@ class tasksController extends Controller
 
     function edit($id)
     {
-        $task= new Task();
+        $task= new TaskRepository();
 
-        $d["task"] = $task->showTask($id);
+        $d["task"] = $task->get($id);
 
         if (isset($_POST["title"]))
         {
@@ -49,7 +48,7 @@ class tasksController extends Controller
 
     function delete($id)
     {
-        $task = new Task();
+        $task = new TaskRepository();
         if ($task->delete($id))
         {
             header("Location: " . WEBROOT . "tasks/index");

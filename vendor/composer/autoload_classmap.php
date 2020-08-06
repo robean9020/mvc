@@ -6,12 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'myvendor\\Config\\Database' => $baseDir . '/Config/Database.php',
-    'myvendor\\Controllers\\tasksController' => $baseDir . '/Controllers/tasksController.php',
-    'myvendor\\Core\\Controller' => $baseDir . '/Core/Controller.php',
-    'myvendor\\Core\\Model' => $baseDir . '/Core/Model.php',
-    'myvendor\\Models\\Task' => $baseDir . '/Models/Task.php',
-    'myvendor\\dispatcher' => $baseDir . '/dispatcher.php',
-    'myvendor\\request' => $baseDir . '/request.php',
-    'myvendor\\router' => $baseDir . '/router.php',
 );

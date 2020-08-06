@@ -8,9 +8,9 @@ namespace myvendor\Core;
         var $vars = [];
         var $layout = "default";
 
-        function set($d)
+        function set($data)
         {
-            $this->vars = array_merge($this->vars, $d);
+            $this->vars = array_merge($this->vars, $data);
         }
 
         function render($filename)

@@ -3,10 +3,11 @@
 namespace myvendor\Models;
 use myvendor\Core\Model;
 use myvendor\Config\Database;
+use myvendor\Models\TaskResourceModel;
 
-class Task extends Model
+class TaskRepository extends Model
 {
-    public function create($title, $description)
+    public function add($title, $description)
     {
         $sql = "INSERT INTO tasks (title, description, created_at, updated_at) VALUES (:title, :description, :created_at, :updated_at)";
 
@@ -20,7 +21,7 @@ class Task extends Model
         ]);
     }
 
-    public function showTask($id)
+    public function get($id)
     {
         $sql = "SELECT * FROM tasks WHERE id =" . $id;
         $req = Database::getBdd()->prepare($sql);
@@ -28,7 +29,7 @@ class Task extends Model
         return $req->fetch();
     }
 
-    public function showAllTasks()
+    public function getAll()
     {
         $sql = "SELECT * FROM tasks";
         $req = Database::getBdd()->prepare($sql);
@@ -47,7 +48,6 @@ class Task extends Model
             'title' => $title,
             'description' => $description,
             'updated_at' => date('Y-m-d H:i:s')
-
         ]);
     }
 
